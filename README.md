@@ -2,20 +2,20 @@
 
 Zip 파일은 경로 내 압축해제 후 사용.
 
-./KTL_project_07_Pathology_BreastCancer_Classification
-|-- Code
-|   |   |-- 01. Training-checkpoint.ipynb
-|   |   `-- 02. Evaluation-checkpoint.ipynb
-|   |-- 01. Training.ipynb
-|   |-- 02. Evaluation.ipynb
-|   |-- monai
-|   |   |-- MOANI 라이브러리
-`-- Data
-    |-- 10253 (환자번호)
-    |   |-- 0 (Benign 영역)
-    |       |-- ....png
-    |   |-- 1 (Malignant 영역)
-    |       |-- ....png
+        ./KTL_project_07_Pathology_BreastCancer_Classification
+        |-- Code
+        |   |   |-- 01. Training-checkpoint.ipynb
+        |   |   `-- 02. Evaluation-checkpoint.ipynb
+        |   |-- 01. Training.ipynb
+        |   |-- 02. Evaluation.ipynb
+        |   |-- monai
+        |   |   |-- MOANI 라이브러리
+        `-- Data
+            |-- 10253 (환자번호)
+            |   |-- 0 (Benign 영역)
+            |       |-- ....png
+            |   |-- 1 (Malignant 영역)
+            |       |-- ....png
 
 ## Data Description
 1. 학습용 데이터 (/Data/...)
