@@ -17,6 +17,23 @@ Zip 파일은 경로 내 압축해제 후 사용.
             |   |-- 1 (Malignant 영역)
             |       |-- ....png
 
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+- Other dependencies can be installed using `environment.yml`
+  
+## Getting Started
+### Installation
+
+- Clone this repo:
+```bash
+git clone https://github.com/ktlProject0/KTL_project_07_Pathology_BreastCancer_Classification.git
+cd KTL_project_07_Pathology_BreastCancer_Classification
+```
+ - You can create a new Conda environment using `conda env create -f environment.yml`.
+
 ## Data Description
 1. 학습용 데이터 (/Data/...)
    - 각 환자의 병리 슬라이드 영역에서 cancer:1, narmal:0 폴더명으로 구분
